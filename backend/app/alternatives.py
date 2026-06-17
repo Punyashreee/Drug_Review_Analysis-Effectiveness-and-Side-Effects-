@@ -1,29 +1,3 @@
-# from database import load_dataset
-
-# df = load_dataset()
-
-# # ---------------------------------------------------
-# # GET ALTERNATIVES
-# # ---------------------------------------------------
-
-# def get_alternatives(drug_name):
-
-#     filtered = df[
-#         df["drugName"].str.lower()
-#         !=
-#         drug_name.lower()
-#     ]
-
-#     top = (
-#         filtered.groupby("drugName")["rating"]
-#         .mean()
-#         .sort_values(ascending=False)
-#         .head(5)
-#     )
-
-#     return top.index.tolist()
-
-
 from database import load_dataset
 
 df = load_dataset()

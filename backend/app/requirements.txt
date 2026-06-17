@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+numpy
+torch
+transformers
+sentence-transformers
+chromadb
+langchain
+spacy
+scispacy
+scikit-learn
+python-multipart
